@@ -184,13 +184,19 @@ var myBarChart = new Chart(ed, {
                             drawBorder: false,
                             display:false
                             
-                        }
+                        },
+                        ticks: {
+                    display: false //this will remove only the label
+                } 
                 }],
                     yAxes: [{
                         gridLines: {
                             display: false,         
                             drawBorder: false
-                        } 
+                        } ,
+                        ticks: {
+                    display: false //this will remove only the label
+                } 
                 }]
     }
 }
