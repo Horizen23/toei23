@@ -2,6 +2,4 @@
 toei
 
 
-
-form gin
-ssssss
+dd
